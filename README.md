@@ -7,7 +7,8 @@ It's Easy to Use
 3. Select a Guard 
 4. Pay &amp; Book your order 
 And then the magic begins... 
-We are Always on &amp; Always available No phone calls to make, no event to schedule. With 24/7 availability, request a security any time of day, any day of the year.
+We are Always on &amp; Always available 
+No phone calls to make, no event to schedule. With 24/7 availability, request a security any time of day, any day of the year.
 
 ## Available on Google Playstore 
 https://play.google.com/store/apps/details?id=com.SGuard
