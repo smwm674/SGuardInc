@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPrices">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/home_actionbar"
+        android:titleTextColor="@color/black"
+        app:popupTheme="@style/AtionBar.PopupOverlay" />
+
+    <LinearLayout
+        android:layout_below="@+id/toolbar"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".AdminHome"
+        tools:showIn="@layout/app_bar_admin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Base Fair"
+            android:textColor="@color/blue" />
+
+        <EditText
+            android:id="@+id/basefair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Base Fair" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Per Mile"
+            android:textColor="@color/blue" />
+
+        <EditText
+            android:id="@+id/permile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Per Mile" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Per Hour"
+            android:textColor="@color/blue" />
+
+        <EditText
+            android:id="@+id/perhour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="10dp"
+            android:hint="Per Hour" />
+        <!-- <android.support.design.widget.TextInputLayout
+             android:id="@+id/username_layout"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/profile_pic"
+             android:textColorHint="@color/blue">
+
+             <EditText
+                 android:id="@+id/basefair"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="10dp"
+                 android:hint="Base Fair" />
+         </android.support.design.widget.TextInputLayout>-->
+
+        <!-- <android.support.design.widget.TextInputLayout
+             android:id="@+id/name_layout"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/username_layout"
+             android:textColorHint="@color/blue">
+
+             <EditText
+                 android:id="@+id/permile"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="10dp"
+                 android:hint="Per Mile" />
+         </android.support.design.widget.TextInputLayout>-->
+
+        <!-- <android.support.design.widget.TextInputLayout
+             android:id="@+id/last"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/name_layout"
+             android:textColorHint="@color/blue">
+
+             <EditText
+                 android:id="@+id/perhour"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/name"
+                 android:layout_marginTop="10dp"
+                 android:hint="Per Hour" />
+         </android.support.design.widget.TextInputLayout>-->
+
+        <Button
+            android:id="@+id/update"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/car"
+            android:layout_marginTop="15dp"
+            android:text="@string/update"
+            android:textColor="@color/blue" />
+
+    </LinearLayout>
+
+</RelativeLayout>

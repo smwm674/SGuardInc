@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#235dc1</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="white">#FFFCF9FA</color>
+    <color name="white_transparent">#e4fcf9fa</color>
+    <color name="black">#FF000000</color>
+    <color name="blue">#235dc1</color>
+    <color name="actionbar">#faf7f8</color>
+    <color name="home_actionbar">#C1E4FA</color>
+
+    <color name="distance">#CFD8DC</color>
+</resources>

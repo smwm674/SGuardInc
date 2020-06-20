@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">SGUARD</string>
+
+    <string name="letsgo">Lets Go!</string>
+    <string name="login">Login</string>
+    <string name="Signup">Sign Up</string>
+    <string name="user">User</string>
+    <string name="armed">Armed</string>
+    <string name="unarmed">Unarmed</string>
+    <string name="admin">Admin</string>
+    <string name="guard">Guard</string>
+    <string name="username">Email</string>
+    <string name="UserNAme">User Name</string>
+    <string name="password">Password</string>
+    <string name="have_account">Do you have an account?</string>
+    <string name="register">Register Here</string>
+    <string name="user_login">User Login</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="guard_login">Guard Login</string>
+    <string name="registration">Registration</string>
+    <string name="fullname">Full Name</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="dob">Date of Birth</string>
+    <string name="register_action">Register</string>
+    <string name="home">Home</string>
+    <string name="prev_orders">Previous Orders</string>
+    <string name="leave_comments">Leave Comments</string>
+    <string name="book_order">Book Orders</string>
+    <string name="current_order">Current Orders</string>
+    <string name="empty">Empty</string>
+    <string name="purpose">Purpose</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="next">Next</string>
+    <string name="enter_pickup_loc">Enter Pick Up Location</string>
+    <string name="confirm">Confirm</string>
+    <string name="proceed">Proceed</string>
+    <string name="user_profile">User Profile</string>
+    <string name="update">Update</string>
+
+    <string-array name="user_guard_array">
+        <item>User</item>
+        <item>Guard</item>
+    </string-array>
+
+    <string name="guard_gallery">Guard Gallery</string>
+    <string name="our_mission">Our Mission</string>
+    <string name="job_requiement">Job Requirement</string>
+    <string name="job_description">Job Description</string>
+    <string name="how_it_works">How it Works?</string>
+
+    <string name="our_mission_text">Here at S Guard Inc. we are your everyday go to mobile security user friendly app. We value you and all that you do. Our Guards are always FIRST and our Clients are PRIORITY.</string>
+    <string name="job_requiement_text">• You must be at least 21 years old.\n• Licensed to drive in the US for at least one year, or three years if you’re under age 23.\n• Have access to a 4-door vehicle that is 10 years old or newer (in most cities).\n• In-state auto insurance with your name on the policy.\n• In-state driver’s license.\n• In-state license plates with current registration (commercial plates are acceptable as well).\n• *You must have a Security License.\n• *You must have a social security number.\n• *Individual who are either Military, Veterans, and/or affiliated with Law Enforcement must provide proof.\n• *Also, individual who has a concealed weapon must show proof of license.\n• Pass a background check and a driving record check</string>
+    <string name="job_description_text">• Secures premises and personnel by patrolling property; monitoring surveillance equipment; inspecting buildings, equipment, and access points; permitting entry.\n• Prevents losses and damage by reporting irregularities; informing violators of policy and procedures; restraining trespassers.\n• Maintains environment by monitoring and setting building and equipment controls.\n• Maintains organization stability and reputation by complying with legal requirements.\n• Contributes to team effort by accomplishing related results as needed.\n• Demonstrated ability to deal peacefully with unforeseen circumstances or delays and use advanced driving techniques to better improve time management and safety.\n• Assured that the vehicle is maintained in excellent condition and is cleaned regularly and In-depth knowledge of vehicle maintenance is applied.\n• Drive V. I. P. to various destinations upon request, with knowledge of various cities and efficient routes.\n• Neat and smart appearance, customer friendly and intellectual individual with desire to exceed expectations.\n• Maintain a clean and inviting vehicle for passengers.\n• Communicate with passengers, offering a safe and welcoming ride to their destination• Secures premises and personnel by patrolling property; monitoring surveillance equipment; inspecting buildings, equipment, and access points; permitting entry.\n• Prevents losses and damage by reporting irregularities; informing violators of policy and procedures; restraining trespassers.\n• Maintains environment by monitoring and setting building and equipment controls.\n• Maintains organization stability and reputation by complying with legal requirements.\n• Contributes to team effort by accomplishing related results as needed.\n• Demonstrated ability to deal peacefully with unforeseen circumstances or delays and use advanced driving techniques to better improve time management and safety.\n• Assured that the vehicle is maintained in excellent condition and is cleaned regularly and In-depth knowledge of vehicle maintenance is applied.\n• Drive V. I. P. to various destinations upon request, with knowledge of various cities and efficient routes.\n• Neat and smart appearance, customer friendly and intellectual individual with desire to exceed expectations.\n• Maintain a clean and inviting vehicle for passengers.\n• Communicate with passengers, offering a safe and welcoming ride to their destination</string>
+    <string name="how_it_works_text">It’s Easy!!!\n\n1. You apply on http://www.sguardone.com/ and/or www.indeed.com complete the hiring process.\n2. Submit all required items. (Ex. Photo, proof of firearm, copy driver license, copy of security license, and/or proof military background if any.\n3. Must pass background check and driver license check. Then the magic begins!\n4.Clients picks a guards for either a ride or to guard an event near their area.\n5.The guard gets an alert w/ event info.\n6. Guard works the event.</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Sign Out</string>
+    <string name="title_activity_guard_home">GuardHome</string>
+
+    <string name="google_maps_key">AIzaSyAS0cljBCXjh2RrPLY3JOjPlhCTIkUKSDw</string>
+    <!--AIzaSyAS0cljBCXjh2RrPLY3JOjPlhCTIkUKSDw-->
+</resources>

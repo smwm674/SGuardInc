@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_guard_gallery"
+            android:title="@string/guard_gallery"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_our_mission"
+            android:title="@string/our_mission" />
+        <item
+            android:id="@+id/nav_job_requiement"
+            android:title="@string/job_requiement"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_job_description"
+            android:title="@string/job_description"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_how_it_works"
+            android:title="@string/how_it_works" />
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/current_order"
+            android:title="@string/current_order" />
+        <item
+            android:id="@+id/previous_order"
+            android:title="@string/prev_orders"
+            android:visible="false"/>
+        <item
+            android:id="@+id/leave_comment"
+            android:visible="false"
+            android:title="@string/leave_comments" />
+        <item
+            android:id="@+id/userChatWithAdmin"
+            android:title="Admin Chat" />
+    </group>
+
+</menu>

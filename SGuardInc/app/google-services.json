@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "561221416194",
+    "firebase_url": "https://sguardone-1c89b.firebaseio.com",
+    "project_id": "sguardone-1c89b",
+    "storage_bucket": "sguardone-1c89b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561221416194:android:045506a1cae70b18",
+        "android_client_info": {
+          "package_name": "com.cons.job"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561221416194-42cie8e5e9u0t98f31qqm7rv8bho1vv6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cons.job",
+            "certificate_hash": "fc7c860d5ba4638b90d6b64850736af1f7a73ead"
+          }
+        },
+        {
+          "client_id": "561221416194-rbn2e36radq9k9c9tb446ij08alfcnob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa1-IpuXxG58jNe31GasusBKyEdH4WsEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561221416194-rbn2e36radq9k9c9tb446ij08alfcnob.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "561221416194-kbhuhvb4qeue3gg4of33112t16nscjme.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.wynsols.SGuards"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561221416194:android:4bc27c5ee36111de",
+        "android_client_info": {
+          "package_name": "com.example.aamir.ototaxiadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561221416194-j83t2c3qubj4micf6pq5vcip7qvikmrm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aamir.ototaxiadmin",
+            "certificate_hash": "5770992800e73badd5894df8fa53b96f86bd61bf"
+          }
+        },
+        {
+          "client_id": "561221416194-rbn2e36radq9k9c9tb446ij08alfcnob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa1-IpuXxG58jNe31GasusBKyEdH4WsEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561221416194-rbn2e36radq9k9c9tb446ij08alfcnob.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "561221416194-kbhuhvb4qeue3gg4of33112t16nscjme.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.wynsols.SGuards"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561221416194:android:e92991a85fef7196",
+        "android_client_info": {
+          "package_name": "com.example.aamir.sguardadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561221416194-nq9r9h5sirrhmmgvhj00jl5uk8gh200k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aamir.sguardadmin",
+            "certificate_hash": "5770992800e73badd5894df8fa53b96f86bd61bf"
+          }
+        },
+        {
+          "client_id": "561221416194-rbn2e36radq9k9c9tb446ij08alfcnob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa1-IpuXxG58jNe31GasusBKyEdH4WsEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561221416194-rbn2e36radq9k9c9tb446ij08alfcnob.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "561221416194-kbhuhvb4qeue3gg4of33112t16nscjme.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.wynsols.SGuards"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561221416194:android:eecaf84ecdb71b2a",
+        "android_client_info": {
+          "package_name": "inc.sguard.android.com.sguardinc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561221416194-uf17v3599f7seecq8ndomeppd538rjsn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "inc.sguard.android.com.sguardinc",
+            "certificate_hash": "5770992800e73badd5894df8fa53b96f86bd61bf"
+          }
+        },
+        {
+          "client_id": "561221416194-rbn2e36radq9k9c9tb446ij08alfcnob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa1-IpuXxG58jNe31GasusBKyEdH4WsEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561221416194-rbn2e36radq9k9c9tb446ij08alfcnob.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "561221416194-kbhuhvb4qeue3gg4of33112t16nscjme.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.wynsols.SGuards"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

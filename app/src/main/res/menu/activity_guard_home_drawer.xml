@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+   <!-- <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Import" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_guard_gallery"
+            android:title="@string/guard_gallery"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_our_mission"
+            android:title="@string/our_mission" />
+        <item
+            android:id="@+id/nav_job_requiement"
+            android:title="@string/job_requiement" />
+        <item
+            android:id="@+id/nav_job_description"
+            android:title="@string/job_description" />
+        <item
+            android:id="@+id/nav_how_it_works"
+            android:title="@string/how_it_works" />
+        <item
+            android:id="@+id/nav_verification"
+            android:title="Verification" />
+
+        <item
+            android:id="@+id/nav_admin_message"
+            android:title="Admin Messages" />
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/current_order"
+            android:visible="false"
+            android:title="@string/current_order" />
+        <item
+            android:id="@+id/previous_order"
+            android:title="@string/prev_orders"
+            android:visible="false"/>
+        <item
+            android:id="@+id/leave_comment"
+            android:visible="false"
+            android:title="@string/leave_comments" />
+    </group>
+
+</menu>

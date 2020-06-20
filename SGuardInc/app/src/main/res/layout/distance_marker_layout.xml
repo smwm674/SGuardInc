@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="horizontal"
+    android:paddingTop="2dp"
+    android:weightSum="3"
+    android:background="@color/home_actionbar">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"></View>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_distance_24dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Event"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/black"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/event_button"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_distance_24dp"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:text="Event"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/positionDistance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView12345"
+            android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"></View>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_time_24dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Ride"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/black"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/ride_button"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_time_24dp"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:text="Ride"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView12345"
+            android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"></View>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_cost_24dp" />
+
+        <TextView
+            android:id="@+id/other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Others"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/fare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView12345"
+            android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

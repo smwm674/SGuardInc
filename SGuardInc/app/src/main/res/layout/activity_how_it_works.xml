@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HowItWorks">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/actionbar"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="@color/black">
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/our_mission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:textSize="35dp"
+        android:text="@string/how_it_works"
+        android:textColor="@color/home_actionbar"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/our_mission"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="@string/how_it_works_text"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        />
+
+</RelativeLayout>

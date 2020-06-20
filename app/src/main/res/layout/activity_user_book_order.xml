@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserBookOrder">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/actionbar"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="@color/black">
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/book_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:textSize="35dp"
+        android:text="@string/book_order"
+        android:textColor="@color/home_actionbar"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/login_textview"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"></View>
+
+        <TextView
+            android:id="@+id/purpose_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:text="@string/purpose"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.125"></View>
+
+            <EditText
+                android:id="@+id/purpose"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="0.75"
+                android:background="@drawable/textview_background"
+                android:hint="@string/purpose"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.125"></View>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"></View>
+
+        <TextView
+            android:id="@+id/contact_number_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:text="@string/contact_number"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.125"></View>
+
+            <EditText
+                android:id="@+id/contact_number"
+                android:inputType="number"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.75"
+                android:background="@drawable/textview_background"
+                android:hint="@string/contact_number"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.125"></View>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.75"></View>
+
+        <TextView
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1.25"
+            android:text="@string/next"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:background="@color/white_transparent"
+            android:textColor="@color/blue"
+           />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"></View>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"></View>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/white"
+        android:scrollbars="vertical" />
+
+</RelativeLayout>
